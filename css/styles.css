@@ -1,0 +1,9 @@
+@font-face {
+    font-family: RedHatMedium;
+    src: url('../assets/fonts/RedHatDisplay-Medium.woff2');
+}
+
+@font-face {
+    font-family: RedHatBlack;
+    src: url('../assets/fonts/RedHatDisplay-Black.woff2');
+}
