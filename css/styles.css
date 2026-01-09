@@ -26,3 +26,7 @@
 html {
     font-size: 62.5%; /* 10 pixels = 1rem */
 }
+
+body {
+    background-color: var(--white);
+}
