@@ -30,3 +30,9 @@ html {
 body {
     background-color: var(--white);
 }
+
+.nav {
+    padding: 4.8rem 8rem 0;
+    display: flex;
+    justify-content: center;
+}
