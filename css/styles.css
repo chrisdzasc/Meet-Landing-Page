@@ -36,3 +36,80 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.hero {
+    padding: 6.4rem 0 3.2rem;
+}
+
+.combined-img {
+    width: 100%;
+}
+
+.combined-img-second {
+    display: none;
+}
+
+@media (min-width: 1400px){
+    .combined-img-second {
+        display: block;
+    }
+}
+
+.combined {
+    padding: 4.8rem 3.2rem 0;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    align-items: center;
+}
+
+h1 {
+    color: var(--slate900);
+    text-align: center;
+    font-family: RedHatBlack;
+    font-size: 4rem;
+    line-height: 110%;
+}
+
+.text-content p {
+    color: var(--slate600);
+    text-align: center;
+    font-family: RedHatMedium;
+    font-size: 1.6rem;
+    line-height: 150%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    align-items: center;
+}
+
+.button-download {
+    background-color: var(--cyan600);
+    color: var(--white);
+    padding: 1.6rem 4rem;
+    font-family: RedHatBlack;
+    font-size: 1.6rem;
+    line-height: 150%;
+    border-radius: 2.9rem;
+}
+
+.button-download span {
+    color: var(--cyan300);
+}
+
+.button-what {
+    background-color: var(--purple600);
+    color: var(--white);
+    padding: 1.6rem 4rem;
+    font-family: RedHatBlack;
+    font-size: 1.6rem;
+    line-height: 150%;
+    border-radius: 2.9rem;
+    max-width: 85%;
+}
