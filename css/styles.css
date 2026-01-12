@@ -113,3 +113,13 @@ h1 {
     border-radius: 2.9rem;
     max-width: 85%;
 }
+
+.main-content {
+    padding: 3.2rem 3.2rem 6.4rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 6.4rem;
+}
