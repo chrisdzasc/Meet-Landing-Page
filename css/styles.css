@@ -201,6 +201,13 @@ h1 {
     gap: 1.6rem;
 }
 
+@media (min-width: 768px){
+    .image-collage {
+        flex-direction: row;
+        gap: 2.4rem;
+    }
+}
+
 .frame-1,
 .frame-2 {
     display: flex;
@@ -208,9 +215,22 @@ h1 {
     gap: 1.6rem;
 }
 
+@media (min-width: 768px){
+    .frame-1,
+    .frame-2 {
+        gap: 2.4rem;
+    }
+}
+
 .img-collage {
     width: 47.5%;
     border-radius: 5%;
+}
+
+@media (min-width: 768px){
+    .img-collage {
+        min-height: 16rem;
+    }
 }
 
 .main-text-content {
