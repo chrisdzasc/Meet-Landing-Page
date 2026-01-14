@@ -201,6 +201,12 @@ h1 {
     }
 }
 
+@media (min-width: 1400px){
+    .main-content {
+        padding: 5.6rem 8rem 7.2rem;
+    }
+}
+
 .content {
     display: flex;
     flex-direction: column;
@@ -252,6 +258,12 @@ h1 {
     }
 }
 
+@media (min-width: 1400px){
+    .image-collage {
+        gap: .6rem;
+    }
+}
+
 .frame-1,
 .frame-2 {
     display: flex;
@@ -266,6 +278,13 @@ h1 {
     }
 }
 
+@media (min-width: 1400px){
+    .frame-1,
+    .frame-2 {
+        gap: 3.2rem;
+    }
+}
+
 .img-collage {
     width: 47.5%;
     border-radius: 5%;
@@ -274,6 +293,12 @@ h1 {
 @media (min-width: 768px){
     .img-collage {
         min-height: 16rem;
+    }
+}
+
+@media (min-width: 1400px){
+    .img-collage {
+        width: 44.2%;
     }
 }
 
