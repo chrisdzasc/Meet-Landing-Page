@@ -37,6 +37,12 @@ body {
     justify-content: center;
 }
 
+@media (min-width: 1400px){
+    .nav {
+        padding-top: 8rem;
+    }
+}
+
 .hero {
     padding: 6.4rem 0 3.2rem;
 }
