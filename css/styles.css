@@ -440,6 +440,14 @@ h1 {
     }
 }
 
+@media (min-width: 1400px){
+    .footer-hero {
+        background-image: linear-gradient(rgba(77, 150, 168, .8), rgba(77, 150, 168, .8)), url(../assets/img/desktop/image-footer.jpg);
+        min-height: 31.2rem;
+        padding: 11.2rem 8rem;
+    }
+}
+
 .footer-content {
     display: flex;
     flex-direction: column;
@@ -451,6 +459,15 @@ h1 {
 @media (min-width: 768px){
     .footer-content {
         width: 72%;
+    }
+}
+
+@media (min-width: 1400px){
+    .footer-content {
+        flex-direction: row;
+        width: 88%;
+        text-align: left;
+        gap: 3.2rem;
     }
 }
 
@@ -467,11 +484,24 @@ h1 {
     }
 }
 
+@media (min-width: 1440px){
+    .footer-content h2 {
+        font-size: 4rem;
+        width: 40%;
+    }
+}
+
 .footer-content p {
     font-family: RedHatMedium;
     font-size: 1.6rem;
     line-height: 150%;
     color: var(--white);
+}
+
+@media (min-width: 1440px){
+    .footer-content p {
+        width: 29.8%;
+    }
 }
 
 .button-purple {
