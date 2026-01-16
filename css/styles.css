@@ -315,6 +315,12 @@ h1 {
     }
 }
 
+@media (min-width: 1400px){
+    .main-text-content {
+        width: 42.5%;
+    }
+}
+
 .main-text-content p {
     font-family: RedHatMedium;
     font-size: 1.6rem;
@@ -325,6 +331,12 @@ h1 {
 @media (min-width: 768px){
     .main-text-content p {
         font-size: 1.6rem;
+    }
+}
+
+@media (min-width: 1400px){
+    .main-text-content p {
+        font-size: 1.8rem;
     }
 }
 
@@ -349,6 +361,12 @@ h1 {
     }
 }
 
+@media (min-width: 1400px){
+    .title-content p {
+        font-size: 1.6rem;
+    }
+}
+
 .title-content h2 {
     font-family: RedHatBlack;
     font-size: 3.2rem;
@@ -359,6 +377,12 @@ h1 {
 @media (min-width: 768px){
     .title-content h2 {
         font-size: 3.6rem;
+    }
+}
+
+@media (min-width: 1400px){
+    .title-content h2 {
+        font-size: 4rem;
     }
 }
 
