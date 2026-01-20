@@ -56,3 +56,4 @@ The challenge was to build out this landing page and get it looking as close to 
 
 - LinkedIn - [Christian Diaz](https://www.linkedin.com/in/chris-diazasc/)
 - Frontend Mentor - [@chrisdzasc](https://www.frontendmentor.io/profile/chrisdzasc)
+- Frontend Mentor Solution - [Meet Landing Page | Mobile-First & Fully Responsive Layout](https://www.frontendmentor.io/solutions/meet-landing-page-mobile-first-and-fully-responsive-layout-JFnzCh4z4q)
