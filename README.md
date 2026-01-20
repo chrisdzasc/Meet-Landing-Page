@@ -16,7 +16,7 @@ Key focus areas included maintaining design system, managing complex responsive 
 
 | Mobile | Tablet | Desktop |
 | :--- | :--- | :--- |
-| <img src="" width="375" /> | <img src="" width="675" /> | <img src="" width="900" /> |
+| <img src="./assets/screenshots/meet-mobile.png" /> | <img src="./assets/screenshots/meet-tablet.png"  /> | <img src="./assets/screenshots/meet-desktop.png" /> |
 
 ## The Challenge
 
